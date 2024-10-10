@@ -28,7 +28,7 @@ struct Args {
     #[clap(long)]
     prove: bool,
 
-    #[clap(long, default_value = "20")]
+    #[clap(long, default_value = "10000000")]
     n: u32,
 }
 
